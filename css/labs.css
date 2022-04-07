@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+ 
+body {
+  margin: 0;
+  font-family: 'Rubik Glitch', san;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.collapsible {
+    background-color: #2d263e;
+    cursor: pointer;
+    padding: 6px;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    text-align: center;  
+    font-size: 23px;
+    margin-top: 10px ;    
+  }
+
+.collapsible:after {
+    content: '\002B';
+    color:#00ff88;
+    font-weight: bold;
+    float: right;
+    margin-right: 10px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+
+  .content {
+    padding: 0px 18px;
+    width: 100%;    
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #272135;
+    text-align: left;
+    display: none;
+    border-radius: 15px;
+  }
+  
+  .content > h4{
+    color: #fcfcfc;
+    font-size: 20px;
+    margin:0 auto;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    display: flex;
+
+}
+.content > p{
+  color: #00ff88;
+  font-size: 15px;
+  margin:0 auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  display: flex;
+}
+
+.content > a:link { 
+  text-decoration: none;
+  padding: 10px 0px; 
+}
+
+
+.btn-send{
+  padding: 9px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: #2b134b;
+  background: #00ff88;
+  cursor: pointer;
+  box-shadow: 0px 10px 40px -12px #00ff8052;
+
+}
+
+.btn-Download{
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: #2b134b;
+  background: #00ff88;
+  cursor: pointer;
+  box-shadow: 0px 10px 40px -12px #00ff8052;
+ 
+
+}
+
+.btn-menu{
+  padding: 9px;
+  border: none;
+  border-radius: 8px; 
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: #fdfdfd;
+  background: #2d263e;
+  cursor: pointer;
+  
+}
+
+
+a:link { 
+    text-decoration: none;
+    padding: 10px 0px; 
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 50vw;
+    height: 50vh;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main > h1{
+    color: #00ff88;
+    font-size: 60px;
+    margin:0 auto;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-image{  
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 25vw;
+    }
+
+
+.textfield{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 9px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+    color: #f0ffff94;
+}
+
+
+@media only screen and (max-width: 950px){
+  .main{
+    flex-direction: column;
+}
+.container{
+    width: 95%;
+    height: 50%;
+}    
+.main-image{
+    width: 90vw;    
+
+}
+.main > h1{
+  color: #00ff88;
+  font-size: 60px;
+  margin:0 auto;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  display: flex;
+
+}
+}
+
+@media only screen and (max-width: 600px){
+    .main{
+        flex-direction: column;
+    }
+    .container{
+        width: 95%;
+        height: 50%;
+    }    
+    .main-image{
+        width: 80vw;
+    }
+    .main > h1{
+      color: #00ff88;
+      font-size: 60px;
+      margin:0 auto;
+      margin-bottom: 20px;
+      margin-top: 50px;
+      display: flex;
+  
+  }
+}
+
+
