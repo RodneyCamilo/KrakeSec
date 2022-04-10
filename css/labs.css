@@ -3,7 +3,8 @@
 body {
   margin: 0;
   font-family: 'Rubik Glitch', san;
-  background-color: #2d263e;
+  background: #201b2c;
+  overflow-x: hidden;
 }
 
 body * {
@@ -121,7 +122,6 @@ a:link {
 .main{
     width: 100vw;
     height: 100vh;
-    background: #201b2c;
     display: flex;
     flex-direction: column;
     justify-content: center;
