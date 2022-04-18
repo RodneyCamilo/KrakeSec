@@ -230,7 +230,7 @@ header .image-text .profession{
     position: absolute;
     top: 0;
     top: 0;
-    left: 220px;    
+    left: 230px;    
     height: 100vh;
     width: calc(100% - 250px);
     background-color: var(--body-color);
@@ -239,7 +239,7 @@ header .image-text .profession{
 
 
 .sidebar.close ~ .home{
-    left: 40px;
+    left: 60px;
     height: 100vh;
     width: calc(100% - 78px);
 }

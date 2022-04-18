@@ -220,8 +220,7 @@ a:link {
 }
 .main > h1{
   color: #00ff88;
-  font-size: 60px;
-
+  font-size: 30px;
   margin-bottom: 20px;
   margin-top: 50px;
   display: flex;
@@ -245,11 +244,13 @@ a:link {
     .main > h1{      
      
       color: #00ff88;
-      font-size: 40px;
-      margin-left: 50px;
+      font-size: 30px;
+      margin-left: 45px;
       margin-bottom: 20px;
       margin-top: 50px;
       display: flex;
+      width: 95%;
+      
   
   }
 }
