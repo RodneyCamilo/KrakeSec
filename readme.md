@@ -1,2 +1,3 @@
 # Criação do site do PROJETO KRAKEN...
-## Desenvolvimento "FRONTEND" com contribuição de: https://github.com/lu1sjddk
+## Desenvolvimento "FRONTEND" com contribuição de: Luis H 
+https://github.com/lu1sjddk
